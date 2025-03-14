@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description"
+        content="Laguna Brava Ecotourism promotes sustainable travel and activities to the Laguna Brava lake in western Guatemala.">
+
+    <title>Laguna Brava Ecotourism</title>
+
+
+    <style>
+        /* CSS rules go here */
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        #xxperience_form input[type="text"],
+        input[type="email"] {
+            width: 300px;
+        }
+
+        #experience_form textarea {
+            width: 100%;
+            height: 100px;
+        }
+
+        #experience_form input,
+        #experience_form textarea,
+        #experience_form label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        #experience_form input,
+        #experience_form textarea {
+            padding: 10px;
+        }
+
+        h1 {
+            font-size: 6rem;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 3rem;
+        }
+
+        footer {
+            text-align: center;
+        }
+
+        .bold {
+            font-weight: bold;
+        }
+
+        .container {
+            max-width: 960px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 0;
+            margin-bottom: 0px;
+        }
+
+        .row {
+            display: flex;
+        }
+        .column {
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="container">
+        <img src="img/panoramic-laguna-brava-2000.jpeg" width="960" height="236" alt="Laguna Brava lake"
+            title="Laguna Brava">
+        <h1>Explore Laguna Brava</h1>
+    </header>
+
+    <main class="container">
+        <article class="row">
+            <div class="column">
+                <img src="img/kayaking.jpeg" width="400" height="400" alt="View of the lake with kayak on the horizon">
+            </div>
+
+            <div class="column">
+                <h2>Kayaking</h2>
+                <p>
+                    Cross the four kilometers in a kayak guided by a local guide. <strong>This guided visit is
+                        physically demanding, and we recommend it for only those in excellent physical
+                        condition.</strong>
+                </p>
+                <ul>
+                    <li> <span class="bold">Duration: </span> 3 hours approx.</li>
+                    <li> <span class="bold"> Price: </span> $40 USD</li>
+                    <li><span class="bold">Minimum: </span> 1 pax</li>
+                </ul>
+            </div>
+        </article>
+
+        <article class= "row">
+            <div class="column">
+            <h2>Boat Rides</h2>
+            <p>
+                Board a rowing boat that takes to around the most beautiful parts of the lake. This guided visit
+                does not require physical effort.
+            </p>
+            <ul>
+                <li> <span class="bold">Duration: </span> 3 hours approx.</li>
+                <li> <span class="bold"> Price: </span> $40 USD</li>
+                <li><span class="bold">Minimum: </span> 4 pax</li>
+            </ul>
+        </div>
+
+        <div class="column"></div>
+            <img src="img/boat-ride.jpeg" width="400" height="400" alt="View of the lake with a kayak on the horizon">
+        </div>
+        </article>
+
+    </main>
+
+    <aside class="container">
+        <section>
+            <h2>Have you traveled to Laguna Brava?</h2>
+            <p>
+                We want to know about your experiences.
+            </p>
+        </section>
+
+        <!-- A form asking for page viewer's experiences -->
+        <form id="experience_form">
+            <label for="name">Name: </label>
+            <input type="text" name="name" id="name" placeholder="Write your name"><br>
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email" placeholder="Write your email"><br>
+            <label for="experience">Experience: </label>
+            <textarea name="experience" id="experience"
+                placeholder="Please share with us your experience."></textarea><br>
+            <input type="submit" value="Submit">
+        </form>
+    </aside>
+
+    <footer>
+        &copy; 2022 Laguna Brava Ecotourism
+    </footer>
+</body>
+
+</html>
